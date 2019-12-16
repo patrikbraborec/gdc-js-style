@@ -1,7 +1,7 @@
 {
-    "parser": "babel-eslint",
+    "parser": "@typescript-eslint/parser",
 
-    "plugins": ["react", "jest", "babel", "header", "no-only-tests"],
+    "plugins": ["react", "jest", "babel", "header", "no-only-tests", "@typescript-eslint/eslint-plugin"],
 
     "extends": "airbnb",
 
